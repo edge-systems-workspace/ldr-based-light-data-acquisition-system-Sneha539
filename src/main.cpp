@@ -21,6 +21,7 @@ void setup() {
 
 void loop() {
 
+
     ldrValue = analogRead(ldrPin);
     Serial.print("Raw ADC Value: ");
     Serial.println(ldrValue);
